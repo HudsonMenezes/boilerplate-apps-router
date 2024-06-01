@@ -1,5 +1,5 @@
 export const Main = () => (
-  <div>
+  <section>
     <h1>React Testing Library</h1>
-  </div>
+  </section>
 );
