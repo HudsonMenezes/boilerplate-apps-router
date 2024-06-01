@@ -1,5 +1,7 @@
+import * as S from "./styles";
+
 export const Main = () => (
-  <section>
-    <h1>React Testing Library</h1>
-  </section>
+  <S.Wrapper>
+    <h1>React Avançado</h1>
+  </S.Wrapper>
 );
