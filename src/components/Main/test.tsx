@@ -7,7 +7,7 @@ describe('<Main />', () => {
     render(<Main />)
     // busca o elemento e verifica a existência dele
     expect(
-      screen.getByRole('heading', { name: /react testing library/i })
+      screen.getByRole('heading', { name: /React Avançado/i })
     ).toBeInTheDocument()
 
   })
